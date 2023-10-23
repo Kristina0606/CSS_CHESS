@@ -1,24 +1,22 @@
 * {
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.box {
-    background-color: white;
-    width: 620px;
-    height: 620px;
-    
+
+.chess-container {
+    width: 600px;
+    border: 20px solid green;
 }
 
 .tbl {
-    border: 20px solid green;
-    border-spacing: 10px;
     border-collapse: collapse;
 }
 
 .tbl td {
     width: 70px;
     height: 70px;
-    margin: 0
+    padding: 0
     
 }
 
